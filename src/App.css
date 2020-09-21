@@ -1,0 +1,59 @@
+.main {
+    background: solid rgb(161, 156, 156);
+    background-size: 600% 600%;
+
+    -webkit-animation: MyAnimation 7s ease infinite;
+    -moz-animation: MyAnimation 7s ease infinite;
+    animation: MyAnimation 7s ease infinite;
+}
+
+@-webkit-keyframes MyAnimation {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+@-moz-keyframes MyAnimation {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+@keyframes MyAnimation {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+
+.main-web{
+    background-color:rgb(248, 243, 243);
+}
+
+.cart{
+    background-image: linear-gradient(180deg,rgb(248, 243, 243););
+  
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.courseDesign{
+    
+   display:flex;
+   float: left;
+   flex-wrap: wrap;
+}
+
+.head{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+}
+
+.head h5{
+    font-weight: 700;
+
+}
+
+.headImage{
+    width: 18%;
+    left: 42%;
+    position: relative;
+}

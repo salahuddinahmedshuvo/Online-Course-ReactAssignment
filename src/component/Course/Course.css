@@ -1,0 +1,82 @@
+.course-card{
+
+    width:80%;
+    height: 600px;
+    text-align:left;
+    justify-content: right;
+    margin: 15px 75px;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.course-image{
+    height: auto; width:100%;
+    animation: fadeIn 1s ease-in both;
+    opacity: 0;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+
+.card-title{
+    margin-top: 25px;
+    text-shadow: 1px 1px 5px rgb(216, 224, 103);
+}
+
+
+
+.card-title strong{
+
+    color: rgb(59, 57, 54);
+}
+
+.addButton{
+
+    background-image:linear-gradient(180deg,orange,rgb(243, 207, 130));
+    width:80%; 
+    transition: all 0.8s;
+    margin-top: 30px;
+     
+}
+
+.addButton:hover
+    {
+
+    background-image:linear-gradient(180deg,orange,rgb(219, 132, 50));
+    width:80%; 
+    transform: scale(1.1);
+    
+    
+}
+
+.btn span{
+    color:rgb(53, 52, 52);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+   
+
+}
+
+.btn span:hover{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+   
+
+}
+
+
